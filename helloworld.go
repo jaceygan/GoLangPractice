@@ -6,6 +6,6 @@ import (
 	"rsc.io/quote"
 )
 
-func maine() { //main func is needed in every main package
+func main() { //main func is needed in every main package
 	fmt.Println(quote.Glass())
 }
