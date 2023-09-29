@@ -59,3 +59,13 @@ func (c card) suitValue() int {
 		return 0
 	}
 }
+
+type testmap map[string]string
+
+func testsomething() {
+
+	tm := testmap{"abc": "123",
+		"asd": "hah",
+	}
+	fmt.Println(tm)
+}
